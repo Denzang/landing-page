@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+  background-color: #62273f;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+}
+
+.logo {
+  /* border: 3px solid pink; */
+  padding: 1vh;
+}
+
+.links {
+  /* border: 2px solid pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1em;
+  align-items: center;
+  margin: 5px;
+  /* border: 5px solid #b9a2ab; */
+  padding: 1vh;
+}
+
+.links button {
+  background-color: #62273f;
+  color: white;
+  padding: 3px;
+  box-shadow: none;
+  border-style: none;
+  min-width: fit-content;
+}
+
+.links a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: #62273f;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  padding: 8px;
+  position: static;
+}
+
+.hero {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  max-height: 500px;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  /* max-width: 800px; */
+}
+
+.height-text {
+  width: 100px;
+}
+.hero-text {
+  flex-basis: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.hero-text p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.hero-image img {
+  border-radius: 10%;
+  border: 5px solid #62273f;
+  border-radius: 10%;
+}
+
+.image-div {
+  color: white;
+  background-color: #62273f;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.image-gallery {
+  display: flex;
+  max-width: 200px;
+  flex-direction: row;
+  gap: 3em;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.image-text {
+  margin: 20px 0 50px 0;
+}
+
+.image-text h3 {
+  font-size: large;
+  text-align: center;
+}
+
+.image-box img {
+  width: 150px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+  justify-content: center;
+}
+
+.image-box p {
+  padding: 5px;
+  text-align: center;
+}
+
+.ad-box {
+  border: 3px solid #6b4b58;
+  border-radius: 15px;
+  background-color: white;
+  color: #62273f;
+  margin: 20px auto 20px auto;
+  display: flex;
+  padding: 20px;
+  gap: 1em;
+  /* max-width: 500px; */
+  justify-content: center;
+  max-width: 650px;
+}
+
+.ad-box button {
+  background-color: #62273f;
+  border-style: none;
+  padding: 5px;
+  min-width: max-content;
+  border-radius: 10%;
+}
+
+.ad-box a {
+  color: white;
+  margin: 2px 2px 2px 2px;
+  text-decoration: none;
+}
